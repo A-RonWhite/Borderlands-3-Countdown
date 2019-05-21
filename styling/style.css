@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  background: black;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  margin: 0;
+}
+
+body #claptrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+}
+
+body .container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+body h1 {
+  font-size: 5rem;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
