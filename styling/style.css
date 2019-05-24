@@ -42,6 +42,7 @@ body .container #logo {
 
 body .counter {
   width: 100%;
+  min-height: 211px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,6 +52,7 @@ body .counter {
           flex-direction: row;
   font-size: 2rem;
   color: white;
+  font-family: "Share Tech Mono", monospace;
   text-align: center;
   -ms-flex-line-pack: center;
       align-content: center;
@@ -61,5 +63,10 @@ body .counter {
 
 body .counter .col {
   padding: 0 2rem;
+  background: black;
+}
+
+body .counter .col:nth-child(n + 2) {
+  border-left: solid 5px white;
 }
 /*# sourceMappingURL=style.css.map */

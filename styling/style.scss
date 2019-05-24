@@ -27,15 +27,21 @@ body {
   }
   .counter {
     width: 100%;
+    min-height: 211px;
     display: flex;
     flex-direction: row;
     font-size: 2rem;
     color: white;
+    font-family: "Share Tech Mono", monospace;
     text-align: center;
     align-content: center;
     justify-content: center;
     .col {
       padding: 0 2rem;
+      background: black;
+    }
+    .col:nth-child(n + 2) {
+      border-left: solid 5px white;
     }
   }
 }
